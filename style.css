@@ -1,5 +1,5 @@
 body {
-    background-image: url(images/galaxy.jpg);
+    background-image: url("https://parham-pourjam.github.io/Etch-a-Sketch/images/galaxy.jpg");
     background-size: cover;
 }
 
