@@ -1,0 +1,56 @@
+body {
+    background-image: url(/images/galaxy.jpg);
+    background-size: cover;
+}
+
+#title {
+    color: #ede8e5;
+    text-align: center;
+    text-decoration: underline overline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+}
+
+.border {
+    width: 700px;
+    height: 610px;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 40px;
+    background-color:#323a53;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.game-board {
+    display: grid;
+    height: 600px;
+    grid-template-columns: repeat(16, auto);
+    background-color: white;
+    grid-gap: 0px;
+    padding: 0px;
+    margin-left: auto; 
+    margin-right: auto;
+    border: solid;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.grid-square {
+    display: grid;
+    grid-gap: 0px;
+    margin: 0px;
+}
+
+.clear {
+    height: 40px;
+    width: 135px;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+}
